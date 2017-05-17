@@ -1,0 +1,24 @@
+https://skwu5555.github.io/ec001/walmart2.json
+
+*********************************************************************************************
+
+<div id="home" data-role="page">
+  <div data-role="header" data-position="fixed" data-theme="b">
+    <h3>Product List</h3>
+  </div>
+  <div role="main" class="ui-content">
+    <ul id="gk-513n6yR-41" data-role="listview" data-autodividers="true" data-inset="true" is="json-listview" service="https://skwu5555.github.io/ec001/walmart3.json" data-divider-theme="b"></ul>
+    <ul id="gk-513y9v5" data-role="listview" data-filter="true" data-autodividers="true" data-inset="true" is="json-listview" service="https://skwu5555.github.io/ec001/walmart3.json" data-divider-theme="b">
+      <li divider="{{name}}" is="listview-li">
+        <a href="#detail">
+          <img style="width:100%;" src="{{thumbnailImage}}" is="image">US${{salePrice}}</a>
+      </li>
+    </ul>
+  </div>
+  <div data-role="footer" data-position="fixed" data-theme="b">
+    <h3>NCUT</h3>
+  </div>
+</div>
+
+
+*********************************************************************************************
